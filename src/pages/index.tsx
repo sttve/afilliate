@@ -16,7 +16,7 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""} >
       <Head>
         <title>300 Receitas Incríveis+ Bônus</title>
-        <meta name="description" content="300"></meta>
+        <meta name="description" content="300 Receitas Incríveis+ 25 Receitas Bônus"></meta>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
