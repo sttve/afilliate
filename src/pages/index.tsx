@@ -16,7 +16,7 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""} >
       <Head>
         <title>300 Receitas Incríveis+ Bônus</title>
-        <meta name="description" content="300 Receitas Incríveis+ 25 Receitas Bônus"></meta>
+        <meta name="description" content="300 Receitas Incríveis+ 2 Bônus Exclusivos"></meta>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
@@ -69,7 +69,7 @@ export default function Home() {
             <h2 className="mt-2 inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
               <span className="font-mono text-sm" aria-hidden="true">→</span>
               <span className="ml-3 h-3.5 w-px bg-orange-600/20"></span>
-              <span className="ml-3 text-base font-medium tracking-tight">25 Receitas Bônus</span>
+              <span className="ml-3 text-base font-medium tracking-tight">2 Bônus Exclusivos</span>
             </h2>
             <br />
             <p className="mt-4 text-lg tracking-tight text-zinc-300">As receitas são apresentadas de maneira clara e objetiva, acompanhadas de fotos que deixarão você com água na boca.<br/>O livro é perfeito para quem busca agradar a família e amigos com pratos saborosos e inovadores. </p>
@@ -132,12 +132,12 @@ export default function Home() {
                     <br />
               </div>
               <div>
-                <dt className="text-lg font-display font-semibold tracking-tight leading-7 text-white">Para quem é esse E-book?</dt>
+                <dt className="text-lg font-display font-semibold tracking-tight leading-7 text-white">Para quem é esse E-Book?</dt>
                 <dd className='mt-2 text-base leading-7 text-gray-100'>Para todas pessoas que gostam de aprender e praticar novas Receitas Deliciosas e Práticas. 
                     </dd>
               </div>
               <p className="mt-6 max-w-2xl text-base leading-7 text-gray-100">Curtiu o E-book mas ainda tem dúvidas? Dá uma olhada nas perguntas frequentes pelo link de compra ou <a href="mailto:gtvmercado@gmail.com" className="hover:text-orange-30 font-semibold text-orange-600 hover:text-orange-500">envie um email </a>
-              que eu vou te responder o mais rápido possível!
+              que nossa equipe te responderá o mais rápido possível!
               </p>     
             </div>   
           </div>
@@ -206,7 +206,7 @@ export default function Home() {
                           <svg aria-hidden="true" viewBox="0 0 32 32" className="h-8 w-8 flex none fill-white">
                           <path d="M11.83 15.795a1 1 0 0 0-1.66 1.114l1.66-1.114Zm9.861-4.072a1 1 0 1 0-1.382-1.446l1.382 1.446ZM14.115 21l-.83.557a1 1 0 0 0 1.784-.258L14.115 21Zm.954.3c1.29-4.11 3.539-6.63 6.622-9.577l-1.382-1.446c-3.152 3.013-5.704 5.82-7.148 10.424l1.908.598Zm-4.9-4.391 3.115 4.648 1.661-1.114-3.114-4.648-1.662 1.114Z"></path>
                           </svg>
-                          <span className="ml-4">25 Receitas Bônus</span>
+                          <span className="ml-4">2 Bônus Exclusivos</span>
                         </li>
                         <li className="flex py-2 leading-6 items-center">
                           <svg aria-hidden="true" viewBox="0 0 32 32" className="h-8 w-8 flex none fill-white">
