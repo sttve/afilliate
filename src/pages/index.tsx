@@ -88,7 +88,7 @@ export default function Home() {
               <span className="ml-3 h-3.5 w-px bg-orange-600/20"></span>
               <span className="ml-3 text-base font-medium tracking-tight">Qual o contéudo?</span>
             </h2>
-              <h2 className='mt-8 font-display text-5xl font-bold tracking-tight text-zinc-100'>Aprenda com esse E-book:</h2>
+              <h2 className='mt-8 font-display text-5xl font-bold tracking-tight text-zinc-100'>Aprenda nesse E-book:</h2>
               <p className="mt-6 max-w-2xl text-base leading-7 text-gray-100">Com uma abordagem abrangente, incluímos uma ampla variedade de receitas que vão desde pratos salgados, doces irresistíveis, opções saudáveis até pães e bolos fresquinhos. Além disso, o livro traz dicas profissionais para garantir que suas receitas sejam um sucesso.
               que eu vou te responder o mais rápido possível!
               </p>
