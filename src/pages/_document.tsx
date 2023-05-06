@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html class="scroll-smooth bg-zinc-800 mt-10" lang="en" >
       <Head />
       <body>
         <Main />

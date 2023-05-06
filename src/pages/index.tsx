@@ -1,18 +1,6 @@
-import Image from 'next/image';
+
 import Head from 'next/head';
-import { Inter } from 'next/font/google';
-import {BsFillMoonStarsFill} from 'react-icons/bs';
-import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillGithub} from 'react-icons/ai';
-import deved from "public/dev-ed-wave.png";
-import design from "public/design.png";
-import code from "public/code.png";
-import consulting from "public/consulting.png";
-import web1 from "public/web1.png";
-import web2 from "public/web2.png";
-import web3 from "public/web3.png";
-import web4 from "public/web4.png";
-import web5 from "public/web5.png";
-import web6 from "public/web6.png";
+
 import {useState} from "react";
 
 
@@ -27,165 +15,239 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""} >
       <Head>
-        <title>Steven Ribeiro </title>
-        <meta name="description" content="Steven"></meta>
-        <link rel="icon" href="/favicon.ico" />
+        <title>300 Receitas Incríveis+ Bônus</title>
+        <meta name="description" content="300"></meta>
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-zinc-900 ">
-        <section className="min-h-screen">
-          <nav className=" py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons"></h1>
-            <ul className="flex items-center">
-              <li>
-                <BsFillMoonStarsFill 
-                onClick={() => setDarkMode(!darkMode)} 
-                className="cursor-pointer text-2xl dark:text-gray-100"/>
-              </li>
-              <li> 
-                <a className="bg-gradient-to-r from-indigo-500 to-violet-500 text-white px-4 py-2 rounded-md ml-8" target="_blank" href="https://www.linkedin.com/in/sttveandersona/">Contact</a>
-              </li>
-              <li>
-  
-                <a className="bg-gradient-to-r from-violet-500 to-indigo-600 text-white px-4 py-2 rounded-md ml-8" target="_blank" href="https://docs.google.com/document/d/1LvF7vF6P_hrJMdclPF54ggnz8Z2V30h4jLUP9wHl8No/edit?usp=sharing">Resume</a>
-              </li>
-            </ul>
-          </nav>
-          <div className='text-center p-10 py-10'>
-            <h2 className='text-5xl py-2 text-violet-500 font-medium md:text-6xl'>Steven Ribeiro</h2>
-            <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-100'>Full-Stack Developer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-300">My expertise includes software development, project management, business development, and strategic planning. I am passionate about using technology to solve complex business problems and drive growth.</p>
-          </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-800 dark:text-gray-300">
-            <AiFillTwitterCircle 
-            onClick={()=> window.open("https://twitter.com/StevenA63049428","_blank")}
-            className="cursor-pointer" />
-            <AiFillLinkedin
-            onClick={()=> window.open("https://www.linkedin.com/in/sttveandersona/","_blank")}
-            className="cursor-pointer" />
-            <AiFillGithub
-            onClick={()=> window.open("https://github.com/sttve?tab=repositories","_blank")}
-            className="cursor-pointer" />
-          </div>
-          <div className="relative mx-auto bg-gradient-to-b from-violet-500 rounded-full w-60 h-60 mt-20 overflow-hidden md:h-96 md:w-96">
-            <Image alt="" src={deved} layout="fill" objectFit="cover"/>
-          </div>
-        </section>
-
+      <main className=" bg-zinc-800 px-10 md:px-20 lg:px-40 ">
+      <div class="bg-zinc-900 px-6 py-4 text-center flex items-center flex-col sm:flex-row sm:justify-center"><h2 class="text-white text-xs sm:text-sm">Você aprende e doa! <span class="font-bold">3% de cada venda</span> será doado para a <a href="https://cufa.org.br/" target="_blank" rel="noreferrer" class="underline">CUFA (Central Única das Favelas)</a> através do <a class="underline" target="_blank" rel="noreferrer" href="https://esg.hotmart.co/HotmartOne">Hotmart One</a></h2></div>
+          
+        
+    
         
         <section>
-          <div>
-            <br>
-            </br>
-            <h3 className="text-3xl py-1 dark:text-gray-100 mt-8">About Me</h3>
-            <p className="text-md md:text-xl py-2 leading-8 text-gray-800 dark:text-gray-300">
-            As an <span className="text-violet-500 py-10">Assistant Manager</span>, <span className="text-violet-500">IT Analyst</span>, and <span className="text-violet-500">Full-Stack Developer</span>, I have gained a diverse set of skills and experiences that have equipped me to excel in a variety of roles. My passion for technology and problem-solving has driven me to continuously improve my skills and stay up-to-date with the latest trends and technologies. I am a strong <span className="text-violet-500">communicator</span> and <span className="text-violet-500">collaborator</span>, and I am always looking for new challenges to tackle.
-            </p>
-            <br />
-            <h3 className="text-3xl py-1 dark:text-gray-100">Job Experience</h3>
-            <p className="text-md md:text-xl py-2 leading-8 text-gray-800 dark:text-gray-300">
-            In my previous roles, I have gained experience in a variety of areas, including project management, data analysis, and full-stack development.<br></br> I am skilled in using a variety of programming languages and frameworks, including TypeScript, JavaScript, React, Next.js, HTML, CSS and Node.js.<br/>Additionally, I have experience in managing teams and collaborating with stakeholders to deliver high-quality solutions.
-            </p>
-          </div>
-          <div className="lg:flex gap-10 " >
-            <div className="text-center shadow-xl p-10 rounded-2xl my-8 bg-slate-50 dark:bg-zinc-950">
-              <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
-                Assistant Manager
-              </h3>
-              <p className="py-2 text-gray-800 leading-8 dark:text-gray-300">· Support the manager in daily operations<br />
-              · Manage staff and delegate tasks<br />
-              · Monitor inventory and order supplies<br />
-              · Analyzed sales data and make recommendations
-              </p>
-              <h4 className='py-2 text-violet-500 font-medium'>Online Impulse · 2023</h4>
-            </div>
+        <div id="faq" className="bg-zinc-800" ><div id="faq" className="bg-zinc-800" >
+            <div className="mx-auto max-w-7xl py-16 px-6 sm:py-24 lg:px-8">
             
-            <div className="text-center shadow-xl p-10 rounded-2xl my-8 bg-slate-50 dark:bg-zinc-950 ">
-              <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
-                IT Analyst
-              </h3>
-              <p className="py-2 text-gray-800 leading-8 dark:text-gray-300">· Designing, analyzing and implementing efficient IT systems<br />
-               · Plan and oversee projects (e.g. upgrades, hardware/software installations)<br /> 
-               · Design efficient IT systems to meet business and technology needs<br /> 
-               · Integratet multiple systems and reconcile needs of different teams<br /> 
-               · Gather feedback from end users about system performance
-
-              </p>
+              <h2 className='mt-00 font-display text-5xl font-bold tracking-tight text-zinc-100'>O que você vai aprender:</h2>
+              <br />
               
-              <h4 className='py-2 text-violet-500 font-medium'>Intensive Training · 2023</h4>
-
-            </div>
-            <div className="text-center shadow-xl p-10 rounded-2xl my-8 bg-slate-50 dark:bg-zinc-950 ">
-              <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
-                Full Stack Jr. Developer
-              </h3>
-              <p className="py-2 text-gray-800 leading-8  dark:text-gray-300">· Designed and developed web applications using React, Node.js, and MongoDB<br />  
-              · Collaborated with cross-functional teams to identify business requirements and develop solutions that met customer needs<br />  
-              · Worked with clients to understand their business needs and develop solutions that met their requirements
-
-              </p>
-              <h4 className='py-2 font-medium text-violet-500'>Freelancer · 2022</h4>
-
-            </div>
+              <h2 className="inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
+              <span class="font-mono text-sm" aria-hidden="true">→</span>
+              <span class="ml-3 h-3.5 w-px bg-orange-600/20"></span>
+              <span class="ml-3 text-base font-medium tracking-tight">300 Receitas Incríveis</span>
+            </h2>
+            <br />
             
-            <div className="text-center shadow-xl p-10 rounded-2xl my-8 bg-slate-50 dark:bg-zinc-950">
-              <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
-                Alignment Technician
-              </h3>
-              <p className="py-2 text-gray-800 leading-8 dark:text-gray-300">· Inspect and adjust vehicle alignment <br />
-              · Diagnose and repair suspension and steering issues <br />
-              · Using specialized tools and equipment <br />
-              · Report to customers about recommended services <br />
-              · Maintained accurate records of services performed
-
+            <h2 className="mt-2 inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
+              <span class="font-mono text-sm" aria-hidden="true">→</span>
+              <span class="ml-3 h-3.5 w-px bg-orange-600/20"></span>
+              <span class="ml-3 text-base font-medium tracking-tight">Pratos Salgados</span>
+            </h2>
+            <br />
+            <h2 className="mt-2 inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
+              <span class="font-mono text-sm" aria-hidden="true">→</span>
+              <span class="ml-3 h-3.5 w-px bg-orange-600/20"></span>
+              <span class="ml-3 text-base font-medium tracking-tight">Doces Irresistíveis</span>
+            </h2>
+            <br />
+            <h2 className="mt-2 inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
+              <span class="font-mono text-sm" aria-hidden="true">→</span>
+              <span class="ml-3 h-3.5 w-px bg-orange-600/20"></span>
+              <span class="ml-3 text-base font-medium tracking-tight">Opções Saudáveis</span>
+            </h2>
+            <br />
+            <h2 className="mt-2 inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
+              <span class="font-mono text-sm" aria-hidden="true">→</span>
+              <span class="ml-3 h-3.5 w-px bg-orange-600/20"></span>
+              <span class="ml-3 text-base font-medium tracking-tight">Pães e Bolos</span>
+            </h2>
+            <br />
+            <h2 className="mt-2 inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
+              <span class="font-mono text-sm" aria-hidden="true">→</span>
+              <span class="ml-3 h-3.5 w-px bg-orange-600/20"></span>
+              <span class="ml-3 text-base font-medium tracking-tight">25 Receitas Bônus</span>
+            </h2>
+            <br />
+            <p class="mt-4 text-lg tracking-tight text-zinc-300">As receitas são apresentadas de maneira clara e objetiva, acompanhadas de fotos que deixarão você com água na boca.<br/>O livro é perfeito para quem busca agradar a família e amigos com pratos saborosos e inovadores. </p>
+              <br />
+              <a href="#comprar" class="rounded-md bg-orange-600 py-3 px-6 text-sm sm:text-md font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">Quero agora!</a>
+              <div className=''>
+                
+              </div>
+              </div>
+              <div>
+                
+              </div>
+            <div className="mx-auto max-w-7xl py-16 px-6 sm:py-24 lg:px-8">
+            <h2 className="inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
+              <span class="font-mono text-sm" aria-hidden="true">→</span>
+              <span class="ml-3 h-3.5 w-px bg-orange-600/20"></span>
+              <span class="ml-3 text-base font-medium tracking-tight">Qual o contéudo?</span>
+            </h2>
+              <h2 className='mt-8 font-display text-5xl font-bold tracking-tight text-zinc-100'>Aprenda com esse E-book:</h2>
+              <p className="mt-6 max-w-2xl text-base leading-7 text-gray-100">Com uma abordagem abrangente, incluímos uma ampla variedade de receitas que vão desde pratos salgados, doces irresistíveis, opções saudáveis até pães e bolos fresquinhos. Além disso, o livro traz dicas profissionais para garantir que suas receitas sejam um sucesso.
+              que eu vou te responder o mais rápido possível!
               </p>
-              <h4 className='py-2  text-violet-500 font-medium'>EME Autocenter · 2021</h4>
-
+              <p className="mt-6 max-w-2xl text-base leading-7 text-gray-100">Com este E-book, você terá acesso além de uma variedade de receitas deliciosas e práticas, 25 Receitas Bônus (10 Receitas para Airfryer e 15 Receitas Fitness) que podem ser preparadas por qualquer pessoa, independentemente do nível de habilidade na cozinha.
+              </p>
+              <p className="mt-6 max-w-2xl text-base leading-7 text-gray-100">Não perca a oportunidade de explorar novos sabores e aprimorar suas habilidades culinárias com este livro incrível!
+              </p>
+              <div className='mt-2'>
+             
+              </div>
+                
+              </div>
+              <div>
+                
+              </div>  
             </div>
-            
+          </div>
+          <div id="faq" className="bg-zinc-800" >
+            <div className="mx-auto max-w-7xl py-16 px-6 sm:py-24 lg:px-8">
+            <h2 className="inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
+              <span class="font-mono text-sm" aria-hidden="true">→</span>
+              <span class="ml-3 h-3.5 w-px bg-orange-600/20"></span>
+              <span class="ml-3 text-base font-medium tracking-tight">Perguntas</span>
+            </h2>
+              <h2 className='mt-8 font-display text-5xl font-bold tracking-tight text-zinc-100'>FAQ - Perguntas Frequentes</h2>
+              
+              <div className='mt-10'>
+                <dl className="space-y-16 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-16 sm:space-y-0 lg:gap-x-10">
+                  <div>
+                    <dt className='text-lg font-display font-semibold tracking-tight leading-7 text-white'>Por quanto tempo vou ter acesso ao E-Book?</dt>
+                    <dd className='mt-2 text-base leading-7 text-gray-100'>O acesso ao E-book de Receitas é vitalício! você pode entrar em contato diretamente pelo email sobre qualquer dúvida que surgir!
+                    </dd>
+                    <br />
+                  </div>
+                </dl>
+              </div>
+              <div>
+                <dt className="text-lg font-display font-semibold tracking-tight leading-7 text-white">Qual o período para reembolso?</dt>
+                <dd className='mt-2 text-base leading-7 text-gray-100'>Em até 7 dias após a compra você pode solicitar o reembolso direto pela plataforma da Hotmart.
+                    </dd>
+                    <br />
+              </div>
+              <div>
+                <dt className="text-lg font-display font-semibold tracking-tight leading-7 text-white">Para quem é esse E-book?</dt>
+                <dd className='mt-2 text-base leading-7 text-gray-100'>Para todas pessoas que gostam de aprender e praticar novas Receitas Deliciosas e Práticas. 
+                    </dd>
+              </div>
+              <p className="mt-6 max-w-2xl text-base leading-7 text-gray-100">Curtiu o E-book mas ainda tem dúvidas? Dá uma olhada em algumas perguntas frequentes ou <a href="" className="hover:text-orange-30 font-semibold text-orange-600 hover:text-orange-500">envie um email </a>
+              que eu vou te responder o mais rápido possível!
+              </p>     
+            </div>   
           </div>
         </section>
-        <section>
-          <div className="">
-            <h3 className="text-3xl py-1 dark:text-gray-100">Work</h3>
-            <p className="text-md md:text-xl py-2 leading-8 text-gray-800 dark:text-gray-300">
-            I am excited about the opportunity to pursue a career as<span className="text-violet-500 py-10"> a Software Engineer</span> or <span className="text-violet-500 py-10">Data Scientist/Analyst</span>. <br></br><br></br>I am deeply committed to using my skills and knowledge to create innovative solutions that address real-world problems and improve the quality of life for individuals and communities. Whether it’s developing software applications that streamline processes and increase efficiency, or designing data systems that provide valuable insights and inform decision-making, I am eager to contribute my talents and work collaboratively with others to achieve meaningful results.
+        
+        <section id="comprar" aria-labelledby="comprar-titulo" className="relative scroll-mt-14 pt-16 pb-8 sm:scroll-mt-14sm:pt-20 sm:pb-10 lg:pt-32 lg:pb-16">
+          <div className="absolute inset-x-0 bottom-0 top-1/2 text-zinc-100/10 [mask-image:linear-gradient(transparent,white)]">
+            <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
+              <defs>
+                <pattern id=":R1pm:" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" y="100%">
+                  <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
+                  </pattern>
+              </defs>
+              <rect width="100%" height="100%" fill="url(#:R1pm:)"></rect>
+            </svg>
+          </div>
+          <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-4xl lg:px-12">
+            <h2 className="inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
+              <span class="font-mono text-sm" aria-hidden="true">→</span>
+              <span class="ml-3 h-3.5 w-px bg-orange-600/20"></span>
+              <span class="ml-3 text-base font-medium tracking-tight">Compre aqui!</span>
+            </h2>
+            <p class="mt-8 font-display text-5xl font-extrabold tracking-tight text-zinc-100 sm:text-6xl">Comece a aprender agora mesmo!</p>
+            <p class="mt-4 text-lg tracking-tight text-zinc-300">
+              Diversas formas de pagamento para você à vista ou parcelado no cartão de crédito SEM JUROS.
             </p>
-
+          </div>
+          <div class="mx-auto mt-16 max-w-4xl lg:px-6">
+            <div class="bg-zinc-800 sm:px-6 sm:pb-16 md:rounded-6xl md:px-8 md:pt-16 lg:p-16 z-10 relative">
+              <div class="flex flex-col md:flex-row py-0 sm:py-10">
+                <div class="relative px-4 py-16 sm:rounded-5xl sm:px-10 md:py-12 lg:px-10 overflow-hidden flex-1 bg-orange-700 sm:shadow-lg flex-[1.1]">
+                  <span class="mb-4 inline-flex items-center rounded-md bg-purple-600 px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-purple-800">VALOR PROMOCIONAL ATÉ 13/05/2023</span>
+                  <div class="absolute inset-0 text-white/10 [mask-image:linear-gradient(white,transparente)]">
+                    <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
+                    <defs>
+                    <pattern id=":Rbpm:" width="128" height="128" patternUnits="userSpaceOnUse" x="50%" y="50%">
+                      <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
+                  </pattern>
+                  </defs>
+                    <rect width="100%" height="100%" fill="url(#:Rbpm:)"></rect>
+                    </svg>
+                  </div>
+                  <div class="relative flex flex-col">
+                    <h3 class="mt-7 text-lg font-semibold tracking-tight text-white">Á vista por R$67,90</h3>
+                    <p class="mt-2 text-lg tracking-tight text-white">Você aprende e doa! <span class="font-bold">3% de cada venda</span> será doado para a <a href="" target="_blank" rel="noreferrer" class="underline">CUFA (Central Única das Favelas) </a> 
+                     através do <a class="underline" target="_blank" rel="noreferrer" href="">Hotmart One</a>
+                     </p>
+                     <div class="order-first">
+                      <span class="text-white font-bold"></span>
+                      <p class="flex font-bold">
+                        <span class="text-[1.75rem] leading-tight text-orange-200">R$</span>
+                        <span class="ml-1 mt-1 tracking-tight text-white text-7xl">
+                          23,95
+                          <span class="text-lg"> x 3</span></span>
+                      </p>
+                     </div>
+                     <div class="order-last mt-8">
+                      <ul role="list" class="-my-2 divide-y text-base tracking-tight divide-white/10 text-white">
+                        <li class="flex py-2 leading-6 items-center">
+                          <svg aria-hidden="true" viewBox="0 0 32 32" class="h-8 w-8 flex none fill-white">
+                          <path d="M11.83 15.795a1 1 0 0 0-1.66 1.114l1.66-1.114Zm9.861-4.072a1 1 0 1 0-1.382-1.446l1.382 1.446ZM14.115 21l-.83.557a1 1 0 0 0 1.784-.258L14.115 21Zm.954.3c1.29-4.11 3.539-6.63 6.622-9.577l-1.382-1.446c-3.152 3.013-5.704 5.82-7.148 10.424l1.908.598Zm-4.9-4.391 3.115 4.648 1.661-1.114-3.114-4.648-1.662 1.114Z"></path>
+                          </svg>
+                          <span class="ml-4">300 Receitas Incríveis ao total</span>
+                        </li>
+                        <li class="flex py-2 leading-6 items-center">
+                          <svg aria-hidden="true" viewBox="0 0 32 32" class="h-8 w-8 flex none fill-white">
+                          <path d="M11.83 15.795a1 1 0 0 0-1.66 1.114l1.66-1.114Zm9.861-4.072a1 1 0 1 0-1.382-1.446l1.382 1.446ZM14.115 21l-.83.557a1 1 0 0 0 1.784-.258L14.115 21Zm.954.3c1.29-4.11 3.539-6.63 6.622-9.577l-1.382-1.446c-3.152 3.013-5.704 5.82-7.148 10.424l1.908.598Zm-4.9-4.391 3.115 4.648 1.661-1.114-3.114-4.648-1.662 1.114Z"></path>
+                          </svg>
+                          <span class="ml-4">25 Receitas Bônus</span>
+                        </li>
+                        <li class="flex py-2 leading-6 items-center">
+                          <svg aria-hidden="true" viewBox="0 0 32 32" class="h-8 w-8 flex none fill-white">
+                          <path d="M11.83 15.795a1 1 0 0 0-1.66 1.114l1.66-1.114Zm9.861-4.072a1 1 0 1 0-1.382-1.446l1.382 1.446ZM14.115 21l-.83.557a1 1 0 0 0 1.784-.258L14.115 21Zm.954.3c1.29-4.11 3.539-6.63 6.622-9.577l-1.382-1.446c-3.152 3.013-5.704 5.82-7.148 10.424l1.908.598Zm-4.9-4.391 3.115 4.648 1.661-1.114-3.114-4.648-1.662 1.114Z"></path>
+                          </svg>
+                          <span class="ml-4">10 Receitas Airfryer e 15 Receitas Fitness</span>
+                        </li>
+                        <li class="flex py-2 leading-6 items-center">
+                          <svg aria-hidden="true" viewBox="0 0 32 32" class="h-8 w-8 flex none fill-white">
+                          <path d="M11.83 15.795a1 1 0 0 0-1.66 1.114l1.66-1.114Zm9.861-4.072a1 1 0 1 0-1.382-1.446l1.382 1.446ZM14.115 21l-.83.557a1 1 0 0 0 1.784-.258L14.115 21Zm.954.3c1.29-4.11 3.539-6.63 6.622-9.577l-1.382-1.446c-3.152 3.013-5.704 5.82-7.148 10.424l1.908.598Zm-4.9-4.391 3.115 4.648 1.661-1.114-3.114-4.648-1.662 1.114Z"></path>
+                          </svg>
+                          <span class="ml-4">Parcelamento em até 3x SEM JUROS</span>
+                        </li>
+                      </ul>
+                     </div>
+                     <a class="inline-flex justify-center rounded-md py-4 px-4 text-base font-semibold tracking-tight shadow-sm focus:outline-none bg-zinc-900 text-white hover:bg-zinc-700 focus-visible:text-orange-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white active:bg-orange-50 active:text-orange-900/80 disabled:opacity-40 disabled:hover:text-orange-600 mt-8" aria-label="Get started with the Á vista por R$67,90 plan for $[object Object]" href="https://hotm.art/hfrObDn1">Comprar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
-<br />
+          
            
           <div >
             <section>
-         
-            <h3 className="text-3xl py-1  dark:text-gray-100 ">Education</h3>
-            <div className="text-center shadow-xl p-10 rounded-2xl my-8 bg-slate-50 dark:bg-zinc-950 ">
-              <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
-              Bachelor of Computer Engineering
-              </h3>
-              <h4 className='py-2 text-violet-500 font-medium'>Instituto Federal Fluminense Campus Campos</h4>
-              <h2 className="dark:text-gray-300">2022 · 2026</h2>
-              <br />
-              <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
-              Technical Course in Web Full Stack Development</h3>
-              <h4 className='py-2 text-violet-500 font-medium'>Digital House, Rocketseat</h4>
-              <h2 className="dark:text-gray-300">2021 · 2022</h2>
-              <br />
-              <h3 className="text-lg font-medium py-0 pb-2 dark:text-gray-100">
-              Introduction to Data Engineering</h3>
-              <h4 className='py-2 text-violet-500 font-medium'>DIO.me</h4>
-              <h2 className="dark:text-gray-300">2023</h2>
-              
-              
-            </div>
             <section>
-              <footer>
-                <br />
-                
-                <p className="text-md md:text-xl py-0 pb-0 text-center dark:text-gray-100">Made by Steven Ribeiro</p>
-                <br />
-                <br />
+              <footer class="relative pt-5 pb-20 sm:pb-32 sm:pt-14">
+                <div class="absolute inset-x-0 top-0 h-32 text-zinc-100/10 [mask-image:linear-gradient(white, transparent)]">
+                <svg aria-hidden="true" class="absolute inset-0 h-full w-full">
+                  <defs>
+                    <pattern id=":R1rm:" width="128" height="128" patternUnits="userSpaceOnUse" x="50%">
+                      <path d="M0 128V.5H128" fill="none" stroke="currentColor"></path>
+                      </pattern>
+                      </defs>
+                      <rect width="100%" height="100%" fill="url(#:R1rm:)"></rect>
+                    </svg>
+                </div>
+                <div class="relative text-center text-sm text-zinc-300">
+                  <p>Copyright © 2023 Campos Tech</p>
+                  <p>Todos os direitos reservados.</p>
+                  </div>
+              
               </footer>
             </section>
       
