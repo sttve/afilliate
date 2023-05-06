@@ -189,7 +189,7 @@ export default function Home() {
                       <span className="text-white font-bold"></span>
                       <p className="flex font-bold">
                         <span className="text-[1.75rem] leading-tight text-orange-200">R$</span>
-                        <span className="ml-1 mt-1 tracking-tight text-white text-7xl">
+                        <span className="ml-1 mt-1 tracking-tight text-white text-6xl">
                           23,95
                           <span className="text-lg"> x 3</span></span>
                       </p>
