@@ -136,7 +136,7 @@ export default function Home() {
                 <dd className='mt-2 text-base leading-7 text-gray-100'>Para todas pessoas que gostam de aprender e praticar novas Receitas Deliciosas e Práticas. 
                     </dd>
               </div>
-              <p className="mt-6 max-w-2xl text-base leading-7 text-gray-100">Curtiu o E-book mas ainda tem dúvidas? Dá uma olhada nas perguntas frequentes pelo link de compra ou <a href="mailto:useserversteven@gmail.com" className="hover:text-orange-30 font-semibold text-orange-600 hover:text-orange-500">envie um email </a>
+              <p className="mt-6 max-w-2xl text-base leading-7 text-gray-100">Curtiu o E-book mas ainda tem dúvidas? Dá uma olhada nas perguntas frequentes pelo link de compra ou <a href="mailto:gtvmercado@gmail.com" className="hover:text-orange-30 font-semibold text-orange-600 hover:text-orange-500">envie um email </a>
               que eu vou te responder o mais rápido possível!
               </p>     
             </div>   
