@@ -1,6 +1,5 @@
 
 import Head from 'next/head';
-import {useState} from "react";
 
 
 export default function Home() {
@@ -137,7 +136,7 @@ export default function Home() {
           </div>
         </section>
         
-        
+
         <section id="comprar" aria-labelledby="comprar-titulo" className="relative scroll-mt-14 pt-16 pb-8 sm:scroll-mt-14sm:pt-20 sm:pb-10 lg:pt-32 lg:pb-16">
           <div className="absolute inset-x-0 bottom-0 top-1/2 text-zinc-100/10 [mask-image:linear-gradient(transparent,white)]">
             <svg aria-hidden="true" className="absolute inset-0 h-full w-full">
