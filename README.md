@@ -1,5 +1,3 @@
-made using Nextjs and Tailwindcss
+made using Nextjs and Tailwindcss <br/>
 projeto simples de landing page (vercel analytics disponível)
-#� �a�f�i�l�l�i�a�t�e�
-�
-�
+
