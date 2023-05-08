@@ -1,19 +1,11 @@
 
 import Head from 'next/head';
-
 import {useState} from "react";
 
 
-
-
-
-
-
-
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
   return (
-    <div className={darkMode ? "dark" : ""} >
+    <div>
       <Head>
         <title>300 Receitas Incríveis+ Bônus</title>
         <meta name="description" content="300 Receitas Incríveis+ 2 Bônus Exclusivos"></meta>
@@ -22,13 +14,13 @@ export default function Home() {
 
       <main className=" bg-zinc-800 px-10 md:px-20 lg:px-40 ">
       <div className="bg-zinc-900 px-6 py-4 text-center flex items-center flex-col sm:flex-row sm:justify-center">
-        <h2 className="text-white text-xs sm:text-sm">Você aprende e doa! <span className="font-bold">3% de cada venda</span> será doado para a <a href="https://cufa.org.br/" target="_blank" rel="noreferrer" className="underline">CUFA (Central Única das Favelas)</a> através do <a className="underline" target="_blank" rel="noreferrer" href="https://esg.hotmart.co/HotmartOne">Hotmart One</a></h2></div>
-          
-        
-    
-        
-        <section>
-          
+        <h2 className="text-white text-xs sm:text-sm">Você aprende e doa! <span className="font-bold">3% de cada venda</span> 
+        será doado para a <a href="https://cufa.org.br/" target="_blank" rel="noreferrer" className="underline">CUFA (Central Única das Favelas)</a>
+         através do <a className="underline" target="_blank" rel="noreferrer" href="https://esg.hotmart.co/HotmartOne">Hotmart One</a>
+        </h2>
+      </div>
+           
+      <section>   
         <div id="faq" className="bg-zinc-800" ><div id="faq" className="bg-zinc-800" >
             <div className="mx-auto max-w-7xl py-16 px-6 sm:py-24 lg:px-8">
             
@@ -40,8 +32,8 @@ export default function Home() {
               <span className="font-mono text-sm" aria-hidden="true">→</span>
               <span className="ml-3 h-3.5 w-px bg-orange-600/20"></span>
               <span className="ml-3 text-base font-medium tracking-tight">300 Receitas Incríveis</span>
-            </h2>
-            <br />
+              </h2>
+              <br />
             
             <h2 className="mt-2 inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
               <span className="font-mono text-sm" aria-hidden="true">01</span>
@@ -49,35 +41,39 @@ export default function Home() {
               <span className="ml-3 text-base font-medium tracking-tight">Pratos Salgados</span>
             </h2>
             <br />
+
             <h2 className="mt-2 inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
               <span className="font-mono text-sm" aria-hidden="true">02</span>
               <span className="ml-3 h-3.5 w-px bg-orange-600/20"></span>
               <span className="ml-3 text-base font-medium tracking-tight">Doces Irresistíveis</span>
             </h2>
             <br />
+
             <h2 className="mt-2 inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
               <span className="font-mono text-sm" aria-hidden="true">03</span>
               <span className="ml-3 h-3.5 w-px bg-orange-600/20"></span>
               <span className="ml-3 text-base font-medium tracking-tight">Opções Saudáveis</span>
             </h2>
             <br />
+
             <h2 className="mt-2 inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
               <span className="font-mono text-sm" aria-hidden="true">04</span>
               <span className="ml-3 h-3.5 w-px bg-orange-600/20"></span>
               <span className="ml-3 text-base font-medium tracking-tight">Pães e Bolos</span>
             </h2>
             <br />
+
             <h2 className="mt-2 inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
               <span className="font-mono text-sm" aria-hidden="true">→</span>
               <span className="ml-3 h-3.5 w-px bg-orange-600/20"></span>
               <span className="ml-3 text-base font-medium tracking-tight">2 Bônus Exclusivos</span>
             </h2>
             <br />
+
             <p className="mt-4 text-lg tracking-tight text-zinc-300">As receitas são apresentadas de maneira clara e objetiva, acompanhadas de fotos que deixarão você com água na boca.<br/>O livro é perfeito para quem busca agradar a família e amigos com pratos saborosos e inovadores. </p>
               <br />
               <a href="#comprar" className="rounded-md bg-orange-600 py-3 px-6 text-sm sm:text-md font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">Quero agora!</a>
               <div className=''>
-                
               </div>
               </div>
               <div>
@@ -89,6 +85,7 @@ export default function Home() {
               <span className="ml-3 h-3.5 w-px bg-orange-600/20"></span>
               <span className="ml-3 text-base font-medium tracking-tight">Qual o contéudo?</span>
             </h2>
+            
               <h2 className='mt-8 font-display text-5xl font-bold tracking-tight text-zinc-100'>Aprenda nesse E-book:</h2>
               <p className="mt-6 max-w-2xl text-base leading-7 text-gray-100">Com uma abordagem abrangente, incluímos uma ampla variedade de receitas que vão desde pratos salgados, doces irresistíveis, opções saudáveis até pães e bolos fresquinhos. Além disso, o livro traz dicas profissionais para garantir que suas receitas sejam um sucesso.
               que eu vou te responder o mais rápido possível!
@@ -97,16 +94,12 @@ export default function Home() {
               </p>
               <p className="mt-6 max-w-2xl text-base leading-7 text-gray-100">Não perca a oportunidade de explorar novos sabores e aprimorar suas habilidades culinárias com este livro incrível!
               </p>
-              <div className='mt-2'>
-             
-              </div>
                 
               </div>
-              <div>
-                
-              </div>  
+
             </div>
           </div>
+          
           <div id="faq" className="bg-zinc-800" >
             <div className="mx-auto max-w-7xl py-16 px-6 sm:py-24 lg:px-8">
             <h2 className="inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
@@ -144,6 +137,7 @@ export default function Home() {
           </div>
         </section>
         
+        
         <section id="comprar" aria-labelledby="comprar-titulo" className="relative scroll-mt-14 pt-16 pb-8 sm:scroll-mt-14sm:pt-20 sm:pb-10 lg:pt-32 lg:pb-16">
           <div className="absolute inset-x-0 bottom-0 top-1/2 text-zinc-100/10 [mask-image:linear-gradient(transparent,white)]">
             <svg aria-hidden="true" className="absolute inset-0 h-full w-full">
@@ -166,6 +160,7 @@ export default function Home() {
               Diversas formas de pagamento para você à vista ou parcelado no cartão de crédito SEM JUROS.
             </p>
           </div>
+
           <div className="mx-auto mt-16 max-w-4xl lg:px-6">
             <div className="bg-zinc-800 sm:px-6 sm:pb-16 md:rounded-6xl md:px-8 md:pt-16 lg:p-16 z-10 relative">
               <div className="flex flex-col md:flex-row py-0 sm:py-10">
@@ -229,11 +224,9 @@ export default function Home() {
               </div>
             </div>
           </div>
+    
 
-          
-           
-          <div >
-            <section>
+          <div >  
             <section>
               <footer className="relative pt-5 pb-20 sm:pb-32 sm:pt-14">
                 <div className="absolute inset-x-0 top-0 h-32 text-zinc-100/10 [mask-image:linear-gradient(white, transparent)]">
@@ -250,10 +243,7 @@ export default function Home() {
                   <p>Copyright © 2023 Campos Tech</p>
                   <p>Todos os direitos reservados.</p>
                   </div>
-              
               </footer>
-            </section>
-      
             </section>
           </div>
         </section>
