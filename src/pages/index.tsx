@@ -28,6 +28,7 @@ export default function Home() {
     
         
         <section>
+          
         <div id="faq" className="bg-zinc-800" ><div id="faq" className="bg-zinc-800" >
             <div className="mx-auto max-w-7xl py-16 px-6 sm:py-24 lg:px-8">
             
@@ -43,25 +44,25 @@ export default function Home() {
             <br />
             
             <h2 className="mt-2 inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
-              <span className="font-mono text-sm" aria-hidden="true">→</span>
+              <span className="font-mono text-sm" aria-hidden="true">01</span>
               <span className="ml-3 h-3.5 w-px bg-orange-600/20"></span>
               <span className="ml-3 text-base font-medium tracking-tight">Pratos Salgados</span>
             </h2>
             <br />
             <h2 className="mt-2 inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
-              <span className="font-mono text-sm" aria-hidden="true">→</span>
+              <span className="font-mono text-sm" aria-hidden="true">02</span>
               <span className="ml-3 h-3.5 w-px bg-orange-600/20"></span>
               <span className="ml-3 text-base font-medium tracking-tight">Doces Irresistíveis</span>
             </h2>
             <br />
             <h2 className="mt-2 inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
-              <span className="font-mono text-sm" aria-hidden="true">→</span>
+              <span className="font-mono text-sm" aria-hidden="true">03</span>
               <span className="ml-3 h-3.5 w-px bg-orange-600/20"></span>
               <span className="ml-3 text-base font-medium tracking-tight">Opções Saudáveis</span>
             </h2>
             <br />
             <h2 className="mt-2 inline-flex items-center rounded-full py-1 px-4 text-orange-600 ring-1 ring-inset ring-orange-600" id="comprar-titulo">
-              <span className="font-mono text-sm" aria-hidden="true">→</span>
+              <span className="font-mono text-sm" aria-hidden="true">04</span>
               <span className="ml-3 h-3.5 w-px bg-orange-600/20"></span>
               <span className="ml-3 text-base font-medium tracking-tight">Pães e Bolos</span>
             </h2>
